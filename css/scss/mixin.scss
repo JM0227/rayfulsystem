@@ -1,0 +1,152 @@
+@each $num, $size, $url, $vt in $icons {
+    .btn.ico#{$num}::after {
+        content:'';
+        display: inline-block;
+        width: $size;
+        height: $size;
+        margin-left: 13px;
+        background: url($url) no-repeat center;
+        vertical-align: $vt;
+    }
+}
+
+@each $cls, $fs, $lh, $ra, $pad in $btn-size {
+    .btn.#{$cls} {
+        font-size: $fs;
+        line-height: $lh;
+        border-radius: $ra;
+        padding: 0 $pad;
+    }
+}
+@each $cls, $size in $btn-radius {
+    .btn.#{$cls} {
+        border-radius: $size;
+    }
+}
+        
+@each $cls, $color, $bgcolor, $border in $btn-color {
+    .btn.#{$cls} {
+        color: $color;
+        background-color:$bgcolor;
+        border:1px solid $border;
+        box-sizing: border-box;
+    }
+}
+@each $cls, $color, $bgcolor in $badge {
+    .badge.#{$cls} {
+        color: $color;
+        background-color:$bgcolor;
+    }
+}
+
+
+// 배경이미지
+@mixin bg($url, $x : null, $y : null, $w : null, $h : null, $color : null) {
+    background: url("#{$imgurl}#{$url}.png") no-repeat $x $y;
+    background-size: $w $h;
+    background-color:$color;
+}
+
+// 입력폼 공통디자인 (라디오/체크상자 제외)
+@mixin form-base {
+    padding-left: Rem(16);
+    height: Rem(47);
+    border-radius: Rem(47);
+    border:1px solid $color1;
+    background-color:#fff;
+    font-size: Rem(15);
+    outline: 0;
+    color:$color1;
+    box-sizing: border-box;
+}
+
+// IR
+@mixin hide {
+    overflow: hidden; display:block; position:absolute; border: 0; width: 1px; height: 1px; clip: rect(1px, 1px, 1px, 1px);
+}
+
+// 가변레이아웃
+@mixin flex($dir, $w, $w2 : null) {
+    display:flex;
+    @if $dir == 'first'{
+        > *:first-child { width:$w;}
+        > *:last-child {flex:1;}
+    }@else if $dir == 'last'{
+        > *:first-child {flex:1;}
+        > *:last-child { width:$w;}
+    }@else if $dir == 'middle'{
+        > * {flex:1;}
+        > *:first-child { width:$w;}
+        > *:last-child { width:$w2;}
+    }
+}
+
+// position 중앙배치
+@mixin posi($dir, $x, $y){
+	position:absolute; #{$dir}:$x; top:$y;
+	@if $x == 50% and $y == 50%{
+		transform:translate(-50%, -50%);
+	}@else if $x == 50%{
+		transform:translateX(-50%);
+	}@else if $y == 50%{
+		transform:translateY(-50%);
+	}
+}
+
+// IE li 버그
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    %ie-li {list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRA‌​A7); }
+}
+
+@mixin clearfix {
+    clear: both;
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+@mixin selBox {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+	appearance: none;
+}
+
+
+select::-ms-expand {
+    display: none;
+}
+
+// 말줄임표
+@mixin ellipsis($line: 1) {
+	@if ($line == 1) {
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	  white-space: nowrap;
+	} @else {
+	  display: -webkit-box;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	  -webkit-box-orient: vertical;
+	  -webkit-line-clamp: $line;
+	}
+}
+
+// px to rem
+@function Rem($px, $base : 10){
+    @return ( $px / $base ) * 1rem / 1.2;
+} 
+
+// responsive
+@mixin mobile {
+    @media (min-width: #{$mobile}) and (max-width: #{$tablet - 1px}) {
+      @content;
+    }
+  }
+// @mixin tablet {
+//     @media (min-width: #{$tablet}) and (max-width: #{$web}) {
+//       @content;
+//     }
+//   }
+
