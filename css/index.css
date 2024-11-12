@@ -270,6 +270,15 @@ select::-ms-expand {
 .solution__tabs__item.hidden {
   display: none;
 }
+@media (min-width: 320px) and (max-width: 1023px) {
+  .solution__tabs__item {
+    padding: 5rem 2.5rem 4.1666666667rem;
+    background: #fff;
+  }
+  .solution__tabs__item .cont {
+    width: 100%;
+  }
+}
 
 .items {
   display: flex;
