@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>레이풀시스템 / Energy</title>
+        <script src="js/jquery.js"></script>
+        <script src="js/swiper.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+        <script src="js/global.js"></script>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/sub.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+<body>
+    <header class="header">
+        <div class="inr">
+            <h1><a href="index.html"><span class="hide">레이풀시스템</span></a></h1>
+            <nav class="gnb">
+                <ul>
+                    <li><a href="sub1_1.html"><span>Company</span></a>
+                        <ul>
+                            <li><a href="sub1_1.html">레이풀 스토리</a></li>
+                            <li><a href="sub1_2.html">기업정보</a></li>
+                            <li><a href="sub1_3.html">특허현황</a></li>
+                            <li><a href="sub1_4.html">오시는길</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="sub2_1.html"><span>Solution</span></a>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">IM</a>
+                                <ul class="depth2">
+                                    <li><a href="sub2_1_rayPortal.html">RAY.Portal</a></li>
+                                    <li><a href="sub2_2_rayAiKms.html">RAY.AI.KMS</a></li>
+                                    <li><a href="sub2_3_rayManual.html">RAY.Manual</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">ECM</a>
+                                <ul class="depth2">
+                                    <li><a href="sub2_4_rayDocEx.html">RAY.DocuAgent</a></li>
+                                    <li><a href="sub2_9_rayDrive.html">RAY.Drive</a></li>
+                                    <li><a href="sub2_10_onlyOffice.html">Only Office</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">AI &amp; Search</a>
+                                <ul class="depth2">
+                                    <li><a href="sub2_11_rayAi.html">RAY.AI</a></li>
+                                    <li><a href="sub2_12_raySearch.html">RAY.Search</a></li>
+                                    <li><a href="sub2_13_aiOcr.html">AI-OCR</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">MS365 Add-On</a>
+                                <ul class="depth2">
+                                    <li><a href="sub2_14_rayDriveMs365.html">RAY.Drive MS365 Archive</a></li>
+                                    <li><a href="sub2_15_rayDocMs365.html">RAY.DocuAgent MS365</a></li>
+                                    <li><a href="sub2_16_rayAipGate.html">RAY.AIP.Gateway</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="sub3.html"><span>Finance</span></a>
+                        <ul>
+                            <li><a href="sub3.html">사업영역</a></li>
+                            <li><a href="sub3_1.html">사업목표</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="sub4.html"><span>energy</span></a>
+                        <ul>
+                            <li><a href="sub4.html">RPS 통합관리시스템</a></li>
+                            <li><a href="sub4_1.html">Microgrid Platform</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="sub5.html"><span>partners</span></a>
+                        <ul>
+                            <li><a href="sub5_1.html">기업</a></li>
+                            <li><a href="sub5_2.html">금융</a></li>
+                            <li><a href="sub5_3.html">공공</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <button class="btn__total"><span class="hide">전체메뉴</span></button>
+        </div>
+    </header>
+    <article class="mega">
+        <div>
+            <div class="txt__right">
+                <button><span class="hide">닫기</span></button>
+            </div>
+            <ul>
+                <li><span>company</span>
+                    <ul>
+                        <li><a href="sub1_1.html">레이풀스토리</a></li>
+                        <li><a href="sub1_2.html">기업연혁</a></li>
+                        <li><a href="sub1_3.html">특허현황</a></li>
+                        <li><a href="sub1_4.html">오시는 길</a></li>
+                    </ul>
+                </li>
+                <li><span>Solution</span>
+                    <ul>
+                        <li>
+                            <a href="sub2_1_rayPortal.html">IM</a>
+                        </li>
+                        <li><a href="sub2_4_rayDocEx.html">ECM</a></li>
+                        <li><a href="sub2_11_rayAi.html">AI &amp; Search</a></li>
+                        <li><a href="sub2_14_rayDriveMs365.html">MS365 Add-On</a></li>
+                    </ul>
+                </li>
+                <li><span>finance</span>
+                    <ul>
+                        <li><a href="sub3.html">사업영역</a></li>
+                        <li><a href="sub3_1.html">사업목표</a></li>
+                    </ul>
+                </li>
+                <li><span>energy</span>
+                    <ul>
+                        <li><a href="sub4.html">RPS 통합관리시스템</a></li>
+                        <li><a href="sub4_1.html">Microgrid Platform</a></li>
+                    </ul>
+                </li>
+                <li><span>partners</span>
+                    <ul>
+                        <li><a href="sub5_1.html">기업</a></li>
+                        <li><a href="sub5_2.html">금융</a></li>
+                        <li><a href="sub5_3.html">공공</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </article>
+    <main>
+        <div class="location m0auto">
+            <h2 class="hide">현재위치</h2>
+            <ul>
+                <li><a href=""><span class="hide">홈</span></a></li>
+                <li>ENERGY</li>
+            </ul>
+        </div>
+        <h2 class="h2__type2">ENERGY</h2>
+        <nav class="tabs m0auto pb100">
+            <button class="hide"></button>
+            <ul class="tabs__type1 scroll__tab">
+                <li><a href="#tabcon1">RPS 통합관리시스템</a></li>
+                <li><a href="#tabcon2">Microgrid Platform</a></li>
+            </ul>
+        </nav>
+        <div>
+        <section class="energy pt0 scroll" id="tabcon1">
+            <div class="m0auto">
+                <h3 class="h2 small pt0" data-aos="fade-up">RPS 통합관리시스템</h3>
+                <div class="energy__header" data-aos="fade-up">
+                    <p>신재생에너지 공급의무화<br class="onlym"> 제도(RPS)와 관련된 <br>모든 업무를 통합하여<br class="onlym"> 편리하게 관리하세요.</p>
+                    <div class="energy__header__box">
+                        <ul>
+                            <li>
+                                <strong>RPS(Renewable Portfolio Standard)란?</strong>
+                                총 발전량의 일정비율 이상을 신 · 재생에너지를 이용하여 공급하는 것을 의무화한 제도로 공급의무자는 신재생에너지 공급인증서(REC)를 제출하여 이행했음을 증명합니다.
+                            </li>
+                            <li>
+                                <strong>REC(Renewable Energy Certificate)란?</strong>
+                                일정 기준 이상 발전 설비를 보유한 발전사업자가 신재생에너지를 통해 발전한 양을 정부로부터 인증 받은 문서를 의미합니다.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <h3 class="h2 small pt0" data-aos="fade-up">서비스 소개</h3>
+                <p class="txt__type1" data-aos="fade-up">RPS 통합관리시스템은 의무이행 전반의 업무를 통합하여 편리하게 관리할 수 있도록 합니다.</p>
+                <ol class="list__type2" data-aos="fade-up">
+                    <li>01. ALL-IN-ONE 통합관리</li>
+                    <li>02. 대형 공공기관 구축/운영 노하우 반영</li>
+                    <li>03. 현장상황을 고려한 유연한 서비스</li>
+                    <li>04. 연동으로 자동화된 업무</li>
+                    <li>05. 회원을 위한 PC 모바일 서비스</li>
+                    <li>06. 지속적인 업그레이드 </li>
+                </ol>
+                <ul class="rfs__list type4" data-aos="fade-up">
+                    <li class="box__shadow">
+                        <strong class="h2">의무이행 계획 수립</strong>
+                        <p>연초 산정되는<br>공급의무량에 따른 이행계획을 수립합니다.</p>
+                    </li>
+                    <li class="box__shadow">
+                        <strong class="h2">신재생에너지 공급인증서(REC) 확보</strong>
+                        <p>자체조달 정보, 매매계약 공급인증서<br>대급지급, 현물구매 관리를 통해 <br>인증서 확보 현황을 관리 합니다.</p>
+                    </li>
+                    <li class="box__shadow">
+                        <strong class="h2">의무이행</strong>
+                        <p>공급인증서 제출 현황 및 정산내역을 <br>관리하고, 통계서비스를 통해 <br>보전수익을 확인합니다.</p>
+                    </li>
+                </ul>
+                <h3 class="h2 small" data-aos="fade-up">주요기능</h3>
+                <p class="txt__type1" data-aos="fade-up">다양한 기능을 통해 업무 프로세스를 설계하세요.<br>개별로 관리하던 정보들을 시스템화하여 담당자 별 유기적인 협업이 가능합니다.</p>
+
+                <div class="swiper-container slide__box slide1" data-aos="fade-up">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div>
+                                <figure>
+                                    <img src="images/img_energy1.png" alt="">
+                                    <figcaption>
+                                        <strong class="h3">유형별 관리하는 자체건설 설비</strong>
+                                        <p>신재생에너지 연료 정보를 등록하고, 발전실적 및 인증서 발급정보를 에너지원별, 설비별 관리</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <figure>
+                                    <img src="images/img_energy2.png" alt="">
+                                    <figcaption>
+                                        <strong class="h3">한 곳에서 관리하는 계약 정보</strong>
+                                        <p>모든 종류의 RPS 계약을 등록하고 변경 이력을 기록하여 변경사항에 대한 추적이 가능</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide__box__prev"></div>
+                    <div class="slide__box__next"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="energy bg scroll" id="tabcon2">
+            <div class="m0auto">
+                <h3 class="h2 small pt0" data-aos="fade-up">Microgrid Platform</h3>
+                <div class="energy__header bg2" data-aos="fade-up">
+                    <p><span class="onlyw2">Microgrid Platform은</span> DER을 활용하여<br>소규모 단위의 에너지 공급과<br class="onlym"> 수요를 관리할 수 있습니다. <br>안정적이고 효율적인<br class="onlym"> 친환경 에너지를<br class="onlym"> 공급해 보세요. </p>
+                    <div class="energy__header__box">
+                        <ul>
+                            <li>
+                                <strong>DER(Distributed Energy Resource)란?</strong>
+                                분산형 에너지 자원은 전력 수요 지역 인근에서 생산 및 소비되는 에너지로, 송전선로의 건설을 최소화 할 수 있는 40MW 이하의 모든 발전 설비 또는 500MW 이하의 집단 에너지, 구역전기, 자가용 발전 설비를 의미합니다.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <h3 class="h2 small pt0" data-aos="fade-up">서비스 소개</h3>
+                <p class="txt__type1" data-aos="fade-up">DER(Distributed Energy Resource) 정보를 실시간으로 수집하여 사용자가 작업에 필요한 정보를 <br>UI를 통해 제공하고 알고리즘 분석을 통하여 안정적으로 DER 상태를 유지할 수 있습니다.</p>
+                <ol class="list__type2" data-aos="fade-up">
+                    <li>01. 사용자 맞춤형 인터페이스</li>
+                    <li>02. DER 모니터링 & 제어</li>
+                    <li>03. 표준화 된 데이터 모델</li>
+                    <li>04. Configuration</li>
+                </ol>
+                <ul class="rfs__list type4" data-aos="fade-up">
+                    <li class="box__shadow">
+                        <strong class="h2">DER 데이터 수집</strong>
+                        <p>연초 산정되는 <br>공급의무량에 따른 <br>이행계획을 수립합니다.</p>
+                    </li>
+                    <li class="box__shadow">
+                        <strong class="h2">알고리즘 분석</strong>
+                        <p>자체조달 정보, 매매계약 공급인증서<br>대급지급, 현물구매 관리를 통해 <br>인증서 확보 현황을 관리 합니다.</p>
+                    </li>
+                    <li class="box__shadow">
+                        <strong class="h2">제어</strong>
+                        <p>공급인증서 제출 현황 및 정산내역을 <br>관리하고, 통계서비스를 통해 <br>보전수익을 확인합니다.</p>
+                    </li>
+                </ul>
+                <h3 class="h2 small" data-aos="fade-up">주요기능</h3>
+                <p class="txt__type1" data-aos="fade-up">다양한 기능을 통해 업무 프로세스를 설계하세요.<br>개별로 관리하던 정보들을 시스템화하여 효율적으로 DER 관리가 가능합니다.</p>
+
+                <div class="swiper-container slide__box slide2 m0auto" data-aos="fade-up">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div>
+                                <figure>
+                                    <img src="images/img_energy3.png" alt="">
+                                    <figcaption>
+                                        <strong class="h3">모니터링 & 제어</strong>
+                                        <p>실시간 수집되는 정보를 확인 및 DER 제어 가능</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <figure>
+                                    <img src="images/img_energy4.png" alt="">
+                                    <figcaption>
+                                        <strong class="h3">디바이스 관리 </strong>
+                                        <p>디바이스 타입(PCS, 인버터, ESS 등)별 정보 확인</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide__box__prev"></div>
+                    <div class="slide__box__next"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    </main>
+    <footer class="footer">
+        <div class="inr">
+            <img src="images/footer_logo.png" alt="">
+            <ul>
+                <li>
+                    <span>[본사]</span>
+                    경기도 과천시 과천대로7길 33, 에이동 1107호 (갈현동, 디테크타워) TEL : 02-511-2879 | FAX : 02-541-6924
+                </li>
+                <li>
+                    <span>[강서]</span>
+                    서울시 강서구 우장산로15길 53, A동 5층 (화곡동, 일진빌딩) TEL : 02-3144-2563 | FAX : 02-3144-2564
+                </li>
+            </ul>
+            <div class="footer__copy">
+                Call Us Anytime 02-511-2879 | Opening Time 09:00 - 18:00 | <a href="mailto:rayful.sales@rayful.com">Email Us : rayful.sales@rayful.com</a><br>
+                Copyright © 2005-2024 Rayful System. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <button type="button" class="btn__top"><span>맨 위로 가기</span></button>
+	<script>
+		
+		var section1 = document.getElementById('tabcon2');
+
+		
+		window.scrollBy({top: section1.getBoundingClientRect().top, behavior: 'smooth'});
+		
+	</script>
+</body>
+</html>
