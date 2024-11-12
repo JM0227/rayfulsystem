@@ -202,6 +202,13 @@
             &.hidden{
                 display:none;
             }
+            @include mobile{
+                padding:Rem(60) Rem(30) Rem(50);
+                background:#fff;
+                .cont{
+                    width:100%;
+                }
+            }
         }
     }
 }
