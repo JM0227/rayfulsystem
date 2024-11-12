@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>레이풀시스템</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="inr">
+            <h1><a href="index.html"><span class="hide">레이풀시스템</span></a></h1>
+            <nav class="gnb">
+                <ul>
+                    <li><a href="sub1_1.html"><span>Company</span></a>
+                        <ul>
+                            <li><a href="sub1_1.html">레이풀 스토리</a></li>
+                            <li><a href="sub1_2.html">기업정보</a></li>
+                            <li><a href="sub1_3.html">특허현황</a></li>
+                            <li><a href="sub1_4.html">오시는길</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="sub2_1.html"><span>Solution</span></a>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">IM</a>
+                                <ul class="depth2">
+                                    <li><a href="sub2_1_rayPortal.html">RAY.Portal</a></li>
+                                    <li><a href="sub2_2_rayAiKms.html">RAY.AI.KMS</a></li>
+                                    <li><a href="sub2_3_rayManual.html">RAY.Manual</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">ECM</a>
+                                <ul class="depth2">
+                                    <li><a href="sub2_4_rayDocEx.html">RAY.DocuAgent</a></li>
+                                    <li><a href="sub2_9_rayDrive.html">RAY.Drive</a></li>
+                                    <li><a href="sub2_10_onlyOffice.html">Only Office</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">AI &amp; Search</a>
+                                <ul class="depth2">
+                                    <li><a href="sub2_11_rayAi.html">RAY.AI</a></li>
+                                    <li><a href="sub2_12_raySearch.html">RAY.Search</a></li>
+                                    <li><a href="sub2_13_aiOcr.html">AI-OCR</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">MS365 Add-On</a>
+                                <ul class="depth2">
+                                    <li><a href="sub2_14_rayDriveMs365.html">RAY.Drive MS365 Archive</a></li>
+                                    <li><a href="sub2_15_rayDocMs365.html">RAY.DocuAgent MS365</a></li>
+                                    <li><a href="sub2_16_rayAipGate.html">RAY.AIP.Gateway</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="sub3.html"><span>Finance</span></a>
+                        <ul>
+                            <li><a href="sub3.html">사업영역</a></li>
+                            <li><a href="sub3_1.html">사업목표</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="sub4.html"><span>energy</span></a>
+                        <ul>
+                            <li><a href="sub4.html">RPS 통합관리시스템</a></li>
+                            <li><a href="sub4_1.html">Microgrid Platform</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="sub5.html"><span>partners</span></a>
+                        <ul>
+                            <li><a href="sub5_1.html">기업</a></li>
+                            <li><a href="sub5_2.html">금융</a></li>
+                            <li><a href="sub5_3.html">공공</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <button class="btn__total"><span class="hide">전체메뉴</span></button>
+        </div>
+    </header>
+    <article class="mega">
+        <div>
+            <div class="txt__right">
+                <button><span class="hide">닫기</span></button>
+            </div>
+            <ul>
+                <li><span>company</span>
+                    <ul>
+                        <li><a href="sub1_1.html">레이풀스토리</a></li>
+                        <li><a href="sub1_2.html">기업연혁</a></li>
+                        <li><a href="sub1_3.html">특허현황</a></li>
+                        <li><a href="sub1_4.html">오시는 길</a></li>
+                    </ul>
+                </li>
+                <li><span>Solution</span>
+                    <ul>
+                        <li>
+                            <a href="sub2_1_rayPortal.html">IM</a>
+                        </li>
+                        <li><a href="sub2_4_rayDocEx.html">ECM</a></li>
+                        <li><a href="sub2_11_rayAi.html">AI &amp; Search</a></li>
+                        <li><a href="sub2_14_rayDriveMs365.html">MS365 Add-On</a></li>
+                    </ul>
+                </li>
+                <li><span>finance</span>
+                    <ul>
+                        <li><a href="sub3.html">사업영역</a></li>
+                        <li><a href="sub3_1.html">사업목표</a></li>
+                    </ul>
+                </li>
+                <li><span>energy</span>
+                    <ul>
+                        <li><a href="sub4.html">RPS 통합관리시스템</a></li>
+                        <li><a href="sub4_1.html">Microgrid Platform</a></li>
+                    </ul>
+                </li>
+                <li><span>partners</span>
+                    <ul>
+                        <li><a href="sub5_1.html">기업</a></li>
+                        <li><a href="sub5_2.html">금융</a></li>
+                        <li><a href="sub5_3.html">공공</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </article>
+    <main>
+        <section class="visual">
+            <p class="word"><span class="quotes">변화와 혁신을<br> 이뤄가는 기술로</span><span class="quotes">세상을 움직이는<br> 가치를 만들어갑니다.</span></p>
+            <div>
+                <a href="sub1_1.html" class="btn normal red">자세히 보기</a>
+                <a href="images/company.pdf" target="_blank" class="btn red normal ico1">회사소개서</a>
+            </div>
+            <video muted autoplay loop controls src="images/mov.mp4"></video>
+        </section>
+        <section class="solution">
+            <div class="m0auto">
+                <h2 class="h2" data-aos="fade-up">Solution</h2>
+                <p class="solution__txt"  data-aos="fade-up">
+                    수 많은 종류의 정보 및 컨텐츠 솔루션이 있지만 <br>
+                    고객이 가장 적합한 도입 방법을 선택하는 일은 쉽지 않습니다.<br>
+                    정보 및 컨텐츠 솔루션의 활용 및 확장가능한 로드맵까지 함께 제공하는 것이 더욱 중요합니다. <br>
+                    <br>
+                    <b><span class="active">15년 이상, 60여개의 고객사, 30만명 이상</span>의<br>
+                    기업 사용자와 함께하는 차별화된 정보 및 컨텐츠 솔루션을 지금 경험하세요.</b>
+                </p>
+                <ul class="solution__count" data-aos="fade-up">
+                    <li data-aos="fade-up" data-aos-delay="100">
+                        <strong><span id="num1">15</span>년<span class="txt__red">+</span></strong>
+                        YEARS OF EXPERIENCE
+                    </li>
+                    <li data-aos="fade-up"data-aos-delay="150">
+                        <strong><span id="num2">60</span>개<span class="txt__red">+</span></strong>
+                        OUR CLIENTS
+                    </li>
+                    <li data-aos="fade-up"data-aos-delay="200">
+                        <strong><span id="num3">30</span>만<span class="txt__red">+</span></strong>
+                        USER OF SERVICES
+                    </li>
+                </ul>
+                <div class="solution__tabs" data-aos="fade-up"  data-aos-delay="300">
+                    <ul class="solution__tabs__list">
+                        <li class="active"><a href="javascript:void(0);">IM</a></li>
+                        <li><a href="javascript:void(0);">ECM</a></li>
+                        <li><a href="javascript:void(0);">AI &amp; Search</a></li>
+                        <li><a href="javascript:void(0);">MS365</a></li>
+                    </ul>
+                    <div class="solution__tabs__item">
+                        <p class="label">SOLUTION</p>
+                        <p class="tit"><strong>IM</strong>(Information Management)</p>
+                        <p class="cont">산재된 업무 시스템을 하나의 IT 플랫폼 환경으로 통합, AI를 통한 활용을 위한 축적 등 변화하는 업무/비즈니스를 신속하고 지속적으로 대응할 수 있는 업무 환경 플랫폼을 경험해보세요.</p>
+                        <a class="btn__more" href="sub2_1_rayPortal.html">MORE INFO</a>
+                    </div>
+                    <div class="solution__tabs__item ecm hidden">
+                        <p class="label">SOLUTION</p>
+                        <p class="tit"><strong>ECM</strong>(Enterprise Contents Management)</p>
+                        <p class="cont">문서관리/문서중앙화, 문서보안 및 협업을 위한 인트라넷과 효율적인 연동을 제공합니다.</p>
+                        <a class="btn__more" href="sub2_4_rayDocEx.html">MORE INFO</a>
+                    </div>
+                    <div class="solution__tabs__item ai hidden">
+                        <p class="label">SOLUTION</p>
+                        <p class="tit"><strong>AI &amp; Search</strong></p>
+                        <p class="cont">필요한 정보를 쉽고 빠르게 찾아보세요. 그리고, 찾은 정보를 활용하여 새로운 지식을 창조하세요.</p>
+                        <a class="btn__more" href="sub2_11_rayAi.html">MORE INFO</a>
+                    </div>
+                    <div class="solution__tabs__item ms365 hidden">
+                        <p class="label">SOLUTION</p>
+                        <p class="tit"><strong>MS365 Add-On</strong></p>
+                        <p class="cont">MS365 연동을 통해 유연한 업무환경 확장을 제공합니다.</p>
+                        <a class="btn__more" href="sub2_14_rayDriveMs365.html">MORE INFO</a>
+                    </div>
+                </div>
+                <p class="solution__txt mt50 mb50" data-aos="fade-up" data-aos-delay="400">
+                    <b class="normal">체계적인 컨텐츠 관리와 활용 방법을 통해 새로운 지식 생산의 환경까지 함께 제공합니다.<br>
+                    <span class="active">기업의 소중한 정보자산의 관리, 안전하고 효율적인 지식정보생활</span>을 누려보세요.</b>
+                </p>
+            </div>
+        </section>
+        <section class="finance">
+            <div class="m0auto">
+                <h2 class="h2 white" data-aos="fade-up">Finance</h2>
+                <div class="finance__layout">
+                    <ol class="finance__step" data-aos="fade-right">
+                        <li>대고객<br>비대면 서비스</li>
+                        <li>비대면 채널<br>컨설팅 서비스</li>
+                        <li>특화 채널 서비스 </li>
+                        <li>AI 기반 서비스</li>
+                    </ol>
+                    <div class="finance__txt" data-aos="fade-left" data-aos-delay="350">
+                        <strong>금융 SI 비대면<br>채널 서비스 전문 컨설팅</strong>
+                        <p>국내 금융기관 IT 환경의 폭 넓은 이해도와 프로젝트 구축 성공사례를 통해<br>입증된 역량 및 노하우로 최적화된 시스템 통합 컨설팅 서비스를 제공합니다.</p>
+                        <a href="sub3.html" class="btn normal red">자세히보기</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="energy">
+            <div class="m0auto">
+                <h2 class="h2" data-aos="fade-up">Energy</h2>
+                <ul>
+                    <li data-aos="fade-down" >
+                        <img src="images/bg_enerygy1.png" alt="">
+                        <img src="images/bg_enerygy2.png" alt="">
+                        <a href="sub4.html">
+                            <h3>RPS 종합관리시스템</h3>
+                            <p>복잡한 RPS 관리 업무 효율적으로 관리하세요.<br>의무이행 전반의 업무를 통합하여 편리하게 관리할 수 있습니다. </p>
+                            <span class="btn__more">MORE INFO</span>
+                        </a>
+                    </li>
+                    <li data-aos="fade-down" data-aos-delay="350">
+                        <img src="images/bg_enerygy3.png" alt="">
+                        <img src="images/bg_enerygy4.png" alt="">
+                        <a href="sub4_1.html">
+                            <h3>Microgrid 플랫폼</h3>
+                            <p>DER(Distributed Energy Resource)정보를 실시간으로 수집 및 활용하여<br>알고리즘 분석을 통한 에너지 공급과 수요를 관리할 수 있습니다.</p>
+                            <span class="btn__more">MORE INFO</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="partners">
+            <div class="m0auto">
+                <h2 class="h2" data-aos="fade-up">Partners</h2>
+                <div class="logos" data-aos="fade-up" data-aos-delay="350">
+                    <img src="images/bg_logo_web.png" alt="" class="logo">
+                </div>
+                <div class="txt__center mt60" data-aos="fade-up">
+                    <a href="sub5.html" class="btn normal red">자세히보기</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="inr">
+            <img src="images/footer_logo.png" alt="">
+            <ul>
+                <li>
+                    <span>[본사]</span>
+                    경기도 과천시 과천대로7길 33, 에이동 1107호 (갈현동, 디테크타워) TEL : 02-511-2879 | FAX : 02-541-6924
+                </li>
+                <li>
+                    <span>[강서]</span>
+                    서울시 강서구 우장산로15길 53, A동 5층 (화곡동, 일진빌딩) TEL : 02-3144-2563 | FAX : 02-3144-2564
+                </li>
+            </ul>
+            <div class="footer__copy">
+                Call Us Anytime 02-511-2879 | Opening Time 09:00 - 18:00 | <a href="mailto:rayful.sales@rayful.com">Email Us : rayful.sales@rayful.com</a><br>
+                Copyright © 2005-2024 Rayful System. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <button type="button" class="btn__top"><span>맨 위로 가기</span></button>
+</body>
+</html>
