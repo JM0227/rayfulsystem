@@ -159,6 +159,12 @@
                 }
             }
           }
+          @include mobile{
+            justify-content:left;
+            li{
+                padding:0 Rem(15);
+            }
+          }
         }
         &__item{
             min-height:Rem(370);
