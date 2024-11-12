@@ -227,6 +227,14 @@ select::-ms-expand {
   border-bottom: solid 1.5px #000;
   color: #000;
 }
+@media (min-width: 320px) and (max-width: 1023px) {
+  .solution__tabs__list {
+    justify-content: left;
+  }
+  .solution__tabs__list li {
+    padding: 0 1.25rem;
+  }
+}
 .solution__tabs__item {
   min-height: 30.8333333333rem;
   padding: 5rem 0 2.5rem 4.1666666667rem;
