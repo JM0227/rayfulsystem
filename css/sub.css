@@ -610,6 +610,7 @@ main {
 .solution__service {
   display: flex;
   flex-flow: wrap;
+  min-height: 45.8333333333rem;
   padding: 6.6666666667rem 3.3333333333rem;
   border-radius: 2.5rem;
   background: #f2f2f2 url("../images/bg_solution1.png") no-repeat center bottom;
@@ -764,6 +765,12 @@ main {
 .solution__service__list.rayDrive .item:nth-child(5) {
   background-image: url("../images/ico_solution9_005.png");
 }
+.solution__service__list.onlyOffice .item:nth-child(1) {
+  background-image: url("../images/ico_solution10_001.png");
+}
+.solution__service__list.onlyOffice .item:nth-child(2) {
+  background-image: url("../images/ico_solution10_002.png");
+}
 .solution__service__list.raySearch .item:nth-child(1) {
   background-image: url("../images/ico_solution12_001.png");
 }
@@ -781,6 +788,15 @@ main {
 }
 .solution__service__list.raySearch .item:nth-child(6) {
   background-image: url("../images/ico_solution12_006.png");
+}
+.solution__service__list.aiOcr .item:nth-child(1) {
+  background-image: url("../images/ico_solution13_001.png");
+}
+.solution__service__list.aiOcr .item:nth-child(2) {
+  background-image: url("../images/ico_solution13_002.png");
+}
+.solution__service__list.aiOcr .item:nth-child(3) {
+  background-image: url("../images/ico_solution13_003.png");
 }
 .solution__service__list.rayDriveMs365 .item:nth-child(1) {
   background-image: url("../images/ico_solution14_001.png");
@@ -818,8 +834,14 @@ main {
 .solution__service.rayDrive {
   background-image: url("../images/bg_solution9.png");
 }
+.solution__service.onlyOffice {
+  background-image: url("../images/bg_solution10.png");
+}
 .solution__service.raySearch {
   background-image: url("../images/bg_solution12.png");
+}
+.solution__service.aiOcr {
+  background-image: url("../images/bg_solution13.png");
 }
 .solution__service.rayDriveMs365 {
   background-image: url("../images/bg_solution14.png");
@@ -829,6 +851,7 @@ main {
 }
 @media (min-width: 320px) and (max-width: 1023px) {
   .solution__service {
+    min-height: auto;
     background: #f2f2f2 !important;
   }
   .solution__service__txt {
