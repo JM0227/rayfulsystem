@@ -249,6 +249,7 @@ textarea {
         }
     }
     &__top{
+        display:none;
         position:fixed;
         right:Rem(80);
         bottom:Rem(80);
