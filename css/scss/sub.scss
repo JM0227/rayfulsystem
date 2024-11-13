@@ -659,6 +659,20 @@ main {
                 background-image:url('../images/ico_solution6_003.png');
             }
         }
+        &.rayDocAgentIntra{
+            .item:nth-child(1){
+                background-image:url('../images/ico_solution7_001.png');
+            }
+            .item:nth-child(2){
+                background-image:url('../images/ico_solution7_002.png');
+            }
+            .item:nth-child(3){
+                background-image:url('../images/ico_solution7_003.png');
+            }
+            .item:nth-child(4){
+                background-image:url('../images/ico_solution7_004.png');
+            }
+        }
         &.rayDrive{
             .item:nth-child(1){
                 background-image:url('../images/ico_solution9_001.png');
@@ -753,6 +767,9 @@ main {
     }
     &.rayDocPro{
         background-image:url('../images/bg_solution6.png');
+    }
+    &.rayDocAgentIntra{
+        background-image:url('../images/bg_solution7.png');
     }
     &.rayDrive{
         background-image:url('../images/bg_solution9.png');
