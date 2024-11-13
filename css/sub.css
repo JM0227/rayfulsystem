@@ -750,6 +750,18 @@ main {
 .solution__service__list.rayDocPro .item:nth-child(3) {
   background-image: url("../images/ico_solution6_003.png");
 }
+.solution__service__list.rayDocAgentIntra .item:nth-child(1) {
+  background-image: url("../images/ico_solution7_001.png");
+}
+.solution__service__list.rayDocAgentIntra .item:nth-child(2) {
+  background-image: url("../images/ico_solution7_002.png");
+}
+.solution__service__list.rayDocAgentIntra .item:nth-child(3) {
+  background-image: url("../images/ico_solution7_003.png");
+}
+.solution__service__list.rayDocAgentIntra .item:nth-child(4) {
+  background-image: url("../images/ico_solution7_004.png");
+}
 .solution__service__list.rayDrive .item:nth-child(1) {
   background-image: url("../images/ico_solution9_001.png");
 }
@@ -830,6 +842,9 @@ main {
 }
 .solution__service.rayDocPro {
   background-image: url("../images/bg_solution6.png");
+}
+.solution__service.rayDocAgentIntra {
+  background-image: url("../images/bg_solution7.png");
 }
 .solution__service.rayDrive {
   background-image: url("../images/bg_solution9.png");
