@@ -673,6 +673,17 @@ main {
                 background-image:url('../images/ico_solution7_004.png');
             }
         }
+        &.rayDocAgentIntraC{
+            .item:nth-child(1){
+                background-image:url('../images/ico_solution8_001.png');
+            }
+            .item:nth-child(2){
+                background-image:url('../images/ico_solution8_002.png');
+            }
+            .item:nth-child(3){
+                background-image:url('../images/ico_solution8_003.png');
+            }
+        }
         &.rayDrive{
             .item:nth-child(1){
                 background-image:url('../images/ico_solution9_001.png');
@@ -751,6 +762,14 @@ main {
                 background-image:url('../images/ico_solution15_004.png');
             }
         }
+        &.rayAipGate{
+            .item:nth-child(1){
+                background-image:url('../images/ico_solution16_001.png');
+            }
+            .item:nth-child(2){
+                background-image:url('../images/ico_solution16_002.png');
+            }
+        }
     }
     
     &.rayAiKms{
@@ -771,6 +790,9 @@ main {
     &.rayDocAgentIntra{
         background-image:url('../images/bg_solution7.png');
     }
+    &.rayDocAgentIntraC{
+        background-image:url('../images/bg_solution8.png');
+    }
     &.rayDrive{
         background-image:url('../images/bg_solution9.png');
     }
@@ -788,6 +810,9 @@ main {
     }
     &.rayDocMs365{
         background-image:url('../images/bg_solution15.png');
+    }
+    &.rayAipGate{
+        background-image:url('../images/bg_solution16.png');
     }
     @include mobile{
         min-height:auto;
