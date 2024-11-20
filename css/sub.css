@@ -762,6 +762,15 @@ main {
 .solution__service__list.rayDocAgentIntra .item:nth-child(4) {
   background-image: url("../images/ico_solution7_004.png");
 }
+.solution__service__list.rayDocAgentIntraC .item:nth-child(1) {
+  background-image: url("../images/ico_solution8_001.png");
+}
+.solution__service__list.rayDocAgentIntraC .item:nth-child(2) {
+  background-image: url("../images/ico_solution8_002.png");
+}
+.solution__service__list.rayDocAgentIntraC .item:nth-child(3) {
+  background-image: url("../images/ico_solution8_003.png");
+}
 .solution__service__list.rayDrive .item:nth-child(1) {
   background-image: url("../images/ico_solution9_001.png");
 }
@@ -828,6 +837,12 @@ main {
 .solution__service__list.rayDocMs365 .item:nth-child(4) {
   background-image: url("../images/ico_solution15_004.png");
 }
+.solution__service__list.rayAipGate .item:nth-child(1) {
+  background-image: url("../images/ico_solution16_001.png");
+}
+.solution__service__list.rayAipGate .item:nth-child(2) {
+  background-image: url("../images/ico_solution16_002.png");
+}
 .solution__service.rayAiKms {
   background-image: url("../images/bg_solution2.png");
 }
@@ -846,6 +861,9 @@ main {
 .solution__service.rayDocAgentIntra {
   background-image: url("../images/bg_solution7.png");
 }
+.solution__service.rayDocAgentIntraC {
+  background-image: url("../images/bg_solution8.png");
+}
 .solution__service.rayDrive {
   background-image: url("../images/bg_solution9.png");
 }
@@ -863,6 +881,9 @@ main {
 }
 .solution__service.rayDocMs365 {
   background-image: url("../images/bg_solution15.png");
+}
+.solution__service.rayAipGate {
+  background-image: url("../images/bg_solution16.png");
 }
 @media (min-width: 320px) and (max-width: 1023px) {
   .solution__service {
