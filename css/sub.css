@@ -792,6 +792,15 @@ main {
 .solution__service__list.onlyOffice .item:nth-child(2) {
   background-image: url("../images/ico_solution10_002.png");
 }
+.solution__service__list.rayAi .item:nth-child(1) {
+  background-image: url("../images/ico_solution11_001.png");
+}
+.solution__service__list.rayAi .item:nth-child(2) {
+  background-image: url("../images/ico_solution11_002.png");
+}
+.solution__service__list.rayAi .item:nth-child(3) {
+  background-image: url("../images/ico_solution11_003.png");
+}
 .solution__service__list.raySearch .item:nth-child(1) {
   background-image: url("../images/ico_solution12_001.png");
 }
@@ -869,6 +878,9 @@ main {
 }
 .solution__service.onlyOffice {
   background-image: url("../images/bg_solution10.png");
+}
+.solution__service.rayAi {
+  background-image: url("../images/bg_solution11.png");
 }
 .solution__service.raySearch {
   background-image: url("../images/bg_solution12.png");
