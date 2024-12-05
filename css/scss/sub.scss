@@ -709,6 +709,17 @@ main {
                 background-image:url('../images/ico_solution10_002.png');
             }
         }
+        &.rayAi{
+            .item:nth-child(1){
+                background-image:url('../images/ico_solution11_001.png');
+            }
+            .item:nth-child(2){
+                background-image:url('../images/ico_solution11_002.png');
+            }
+            .item:nth-child(3){
+                background-image:url('../images/ico_solution11_003.png');
+            }
+        }
         &.raySearch{
             .item:nth-child(1){
                 background-image:url('../images/ico_solution12_001.png');
@@ -798,6 +809,9 @@ main {
     }
     &.onlyOffice{
         background-image:url('../images/bg_solution10.png');
+    }
+    &.rayAi{
+        background-image:url('../images/bg_solution11.png');
     }
     &.raySearch{
         background-image:url('../images/bg_solution12.png');
