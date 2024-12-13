@@ -409,6 +409,7 @@ input[type=checkbox].type1:checked + label {
   background: url("../images/ico_check_on.png") no-repeat left center;
   background-size: 1.6666666667rem auto;
 }
+
 textarea {
   padding-left: 1.3333333333rem;
   height: 3.9166666667rem;
@@ -471,6 +472,7 @@ textarea:disabled::placeholder {
   background: #e41323 url("../images/ico_top_arrow.png") no-repeat center center;
   opacity: 0.8;
   transition: all 0.3s;
+  z-index: 99;
 }
 .btn__top > span {
   display: none;
@@ -1080,6 +1082,7 @@ h1 a {
 }
 .gnb > ul > li {
   text-align: center;
+  width: 16.666%;
 }
 .gnb > ul > li > a {
   display: block;
