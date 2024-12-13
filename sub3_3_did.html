@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>레이풀시스템 / Ray.Commendation</title>
+        <title>레이풀시스템 / DID(Decentralized Identity, 분산 신원확인)</title>
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
         <link rel="icon" href="images/favicon.ico" type="image/x-icon">
         <script src="js/jquery.js"></script>
@@ -172,83 +171,107 @@
             <h2 class="hide">현재위치</h2>
             <ul>
                 <li><a href=""><span class="hide">홈</span></a></li>
-                <li>SOLUTION</li>
-                <li>Ray.Commendation</li>
+                <li>FINANCE</li>
             </ul>
         </div>
-        <h2 class="h2__type2">SOLUTION</h2>
-        <nav class="tabs m0auto pb100">
+        <h2 class="h2__type2">FINANCE</h2>
+        <nav class="tabs m0auto">
             <button class="hide"></button>
             <ul class="tabs__type1">
-                <li><a href="sub2_1.html">RFS Agent</a></li>
-                <li><a href="sub2_2.html">Ray.Cloud</a></li>
-                <li class="tabs--active"><a href="">Ray.Commendation</a></li>
+                <li><a href="sub3_1_channel.html">비대면 서비스</a></li>
+                <li class="tabs--active"><a href="sub3_3_did.html">솔루션 사업</a></li>
+                <li><a href="sub3_6_consult.html">IT 컨설팅</a></li>
             </ul>
         </nav>
-        <section class="info">
+        <nav class="subNav m0auto">
+            <ul class="subNav__type1">
+                <li class="subNav--active"><a href="sub3_3_did.html">DID</a></li>
+                <li><a href="sub3_4_ai.html">AI Automation</a></li>
+                <li><a href="sub3_5_bio.html">생체 인증</a></li>
+            </ul>
+        </nav>
+        <section class="finance top">
             <div class="m0auto">
-                <h3 class="h2 small pt0" data-aos="fade-up">Ray.Commendation</h3>
+                <h3 class="h2 small pt0" data-aos="fade-up">
+                    DID<br>
+                    (Decentralized Identity, 분산 신원확인)
+                </h3>
                 <div class="info__txt txt__center" data-aos="fade-up">
-                    문서중앙화/집중화를 통해 저장되거나 인트라넷 시스템에 등록되어 있는<br>다양한 비정형 컨텐츠를 활용하여 새로운 지식을 생산할 수 있는 검색 솔루션을 경험해보세요.  
-                </div>
-                <div class="txt__center mt30" data-aos="fade-up">
-                    <span class="h3">주요 기능</span>
-                </div>
-                <ul class="rfs__list type3">
-                    <li class="box__shadow" data-aos="fade-up"  data-aos-delay="100">
-                        <strong class="h2">검색 인터페이스 제공</strong>
-                        <p>윈도우 탐색기/웹 검색 결과를 <br>동시 조회하여 사용자 <br>지식정보 활용 가능</p>
-                    </li>
-                    <li class="box__shadow" data-aos="fade-up"  data-aos-delay="300">
-                        <strong class="h2">서식 문서 디지털화</strong>
-                        <p>정형 및 비정형 데이터에서 필요 추출<br>정보 선별 및 데이터 변환 후 <br>구조화 하여 적재 </p>
-                    </li>
-                    <li class="box__shadow" data-aos="fade-up"  data-aos-delay="500">
-                        <strong class="h2">AI 모델링 최적화 지능형 검색</strong>
-                        <p>사용자 질의 의도를 의미적으로 이해하고<br>시스템에 산재된 데이터 내에서 <br>하나의 정답만을 제공</p>
-                    </li>
-                </ul>
-
-            </div>
-            <div class="txt__center mt100" data-aos="fade-up" >
-                <span class="h3">특장점</span>
-            </div>
-            <div class="rfs__service m0auto bg3">
-                <div class="rfs__service__txt" data-aos="fade-right"  data-aos-delay="300">
-                    <strong><span class="txt__red">Ray.Commendation</span>의<br>차별화된 서비스를 경험하세요.</strong>
-                    <p>Ray.Commendation는 업무 데이터 중앙 집중화를 통해<br>기업 정보의 유출을 막고 안전하고 효율적인 업무 관리 환경을 <br>제공하는 레이풀의 문서중앙화 보안 솔루션 입니다. </p>
-                </div>
-                <div class="rfs__service__list" data-aos="fade-left"  data-aos-delay="500">
-                    <h4>자연어 검색 지원</h4>
-                    <ul>
-                        <li>- ’휴가’ 또는 ‘백신 접종 시 휴가 신청’ 같은 <br>의도에 정확한 질문으로 답변 탐색이 가능</li>
-                    </ul>
-                    <h4>자동분류 기능 지원</h4>
-                    <ul>
-                        <li>- Paraphrasing, ETL, TA 기술을 활용하여<br>고객 의도분석으로 다양한 형태 분석 서비스 제공</li>
-                    </ul>
-                    <h4>다수의 검색 엔진 사용</h4>
-                    <ul>
-                        <li>- 데이터 유형에 따른 적합한 검색엔진 사용으로<br>최적의 응답을 선정 (MRC, FAQ, Table QA, Passage Search Engine)</li>
-                    </ul>
-                    <h4>다양한 문서 형식 지원</h4>
-                    <ul>
-                        <li>- PDF, DOCX, XLS, HWP 형식의<br>정형/비정형 문서 업로드 기능 지원</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="customer mt100">
-                <div class="m0auto">
-                    <h3>솔루션이 궁금하신가요? </h3>
-                    <p>고객님의 업무 환경에 적합한 최적의 솔루션을 제안해드립니다.</p>
-                    <div>
-                        <div class="customer__tel">02-511-2879</div>
-                        <div class="customer__mail">rayful.sales@rayful.com</div>
-                    </div>
+                    <strong>블록체인과 자기 주권 신원(Self-Sovereign Identity) 모델</strong>을 기반으로<br>
+                    개인정보 관리와 인증 방식을 혁신적으로 개선하고,<br>
+                    <strong>분산원장 기술</strong>을 활용해 기존의 중앙화 된 인증 방식을 탈피하며,<br>
+                    <strong>탈중앙화 된 환경</strong>에서도 <strong>안전하고 효율적인 신원 인증</strong> 서비스를 제공합니다.
                 </div>
             </div>
         </section>
+        <!-- 소개 -->
+        <section class="finance info">
+            <div class="m0auto">
+                <div class="img-box" data-aos="fade-up">
+                    <img src="./images/img_finance_did_001.png" alt="DID 서비스 시스템" />
+                </div>
+                <p class="txt-info" data-aos="fade-up">
+                    새로운 금융 패러다임에 대응하기 위해 블록체인 기반 기술을 활용하며,<br>
+                    이를 STO(토큰 증권 발행)와 CBDC(중앙은행 디지털 화폐) 등 다양한 금융 혁신 분야에 적용할 수 있습니다.<br><br> 
+                    이를 통해 디지털 자산 관리와 거래의 효율성을 높이고,<br>
+                    중앙화 된 금융 시스템을 넘어서는 새로운 금융 서비스를 제공합니다.
+                </p>
+            </div>
+        </section>
+        <!-- //소개 -->
+        <!-- 케이스 스터디 -->
+        <section class="finance case">
+            <div class="txt__center m0auto" data-aos="fade-up">
+                <span class="h3">Case Study</span>
+            </div>
+            <!-- 영업 관리 -->
+            <div class="case__list m0auto">
+                <div class="txt-box" data-aos="fade-right" data-aos-delay="100">
+                    <p class="tit">DID(Decentralized Identifier)</p>
+                    <p>
+                        블록체인 기반의 분산 신원 인증 체계로, 중앙화된 기관이나 데이터베이스 없이 개인이나 조직이 자신의 신원을 안전하고 독립적으로 관리할 수 있도록 설계되었으며 사용자 중심의 신원 인증 방식을 제공하여 프라이버시를 보호하고 보안을 강화하여 탈중앙화된 신원 관리를 제공합니다.
+                    </p>
+                </div>
+                <div class="swiper-box" data-aos="fade-left" data-aos-delay="300">
+                    <div class="swiper f-swiper" dir="ltr">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slide-content">
+                                    <div class="img-wrap">
+                                        <img src="./images/img_case_south1.png" alt="분산신원증명 화면" />
+                                    </div>
+                                    <div class="txt-wrap">
+                                        <p class="tit">분산신원증명</p>
+                                        <p class="cont">한국남부발전 분산 신원증명 기반 구매처 자동화 프로세스</p>     
+                                    </div>
+                                </div>
+                                
+                                <p class="logo"><img src="./images/logo_south.png" alt="한국남부발전 로고" style="height:auto;" /></p>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-content">
+                                    <div class="img-wrap">
+                                        <img src="./images/img_case_south2.png" alt="블록체인기반 업무시스템 화면" />
+                                    </div>
+                                    <div class="txt-wrap">
+                                        <p class="tit">블록체인기반 업무시스템</p>
+                                        <p class="cont">한국남부발전 블록체인기반 NewREC 종합관리시스템 구축</p>     
+                                    </div>
+                                </div>
+                                
+                                <p class="logo"><img src="./images/logo_south.png" alt="한국남부발전 로고"  style="height:auto;" /></p>
+                            </div>
+                        </div>
+                        <div class="swiper__btn">
+                            <div class="swiper-button prev"></div>
+                            <div class="swiper-button next"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- //영업 관리 -->
+        </section>
+         <!-- //케이스 스터디 -->
     </main>
     <footer class="footer">
         <div class="inr">
@@ -270,5 +293,6 @@
         </div>
     </footer>
     <button type="button" class="btn__top"><span>맨 위로 가기</span></button>
+	
 </body>
 </html>
